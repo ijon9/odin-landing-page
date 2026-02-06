@@ -1,7 +1,152 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
 ul {
     list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .cards img {
     width: 200px;
 }
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.first-row button {
+    background-color: royalblue;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: 1px solid royalblue;
+    color: white;
+} 
+
+.first-row {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.cards img {
+    border-radius: 10px;
+    border: 3px solid blue;
+}
+
+.card-1,.card-2,.card-3,.card-4 {
+    flex: 1 1 auto;
+}
+
+.cards p {
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+}
+
+
+.hero {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left {
+    padding: 0px;
+    /* max-width: 200px; */
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.third-row {
+    background-color: #E5E7EB;
+    padding: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.fourth-row {
+    padding: 50px;
+    /* display: flex; */
+}
+
+.act {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    color: white;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.fourth-row button {
+    background-color: #3882F6;
+    margin: 30px;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+}
+
+.words p {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.words h2 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
